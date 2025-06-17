@@ -1,30 +1,30 @@
 const missionData = [
     {
       title: "Youth Empowerment Program (YEP)",
-      image: "../public/images/kids_smil.jpg",
+      image: "/images/kids_smil.jpg",
     },
     {
       title: "Wealthy Hearts",
-      image: "../public/images/wealth.jpeg",
+      image: "/images/wealth.jpeg",
     },
     {
       title: "Weaving Values Through Teaching",
       subtitle: "(Teachers’ Seminars)",
-      image: "../public/images/teaching.jpeg",
+      image: "/images/teaching.jpeg",
     },
     {
       title: "Rekindling Hearts",
       subtitle: "(School-Based Value Education)",
-      image: "../public/images/rekindling.jpg",
+      image: "/images/rekindling.jpg",
     },
     {
       title: "Positive Parenting Workshops",
-      image: "../public/images/parenting.jpg",
+      image: "/images/parenting.jpg",
     },
     {
       title: "Inner Voice",
       subtitle: "(Counseling Support)",
-      image: "../public/images/counseling.jpeg",
+      image: "/images/counseling.jpeg",
     },
   ];
   

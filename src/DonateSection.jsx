@@ -1,4 +1,4 @@
-import Green from '../public/images/green.png'
+import Green from '/images/green.png'
 
 export default function SupportSection() {
     return (

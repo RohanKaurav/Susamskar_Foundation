@@ -3,7 +3,7 @@ export default function Blog(){
         <section className="bg-black text-white">
   <div className="grid md:grid-cols-2 w-full">
     <div className="w-full h-full">
-      <img src='../public/images/thanky.jpg' alt="Thank You" className="w-full h-full object-cover" />
+      <img src='/images/thanky.jpg' alt="Thank You" className="w-full h-full object-cover" />
     </div>
 
  
@@ -22,19 +22,19 @@ export default function Blog(){
           title: "Teaching Values in a Fast–Moving World",
           subtitle: "Why It Still Matters",
           desc: "Why timeless values like empathy...",
-          img: "../public/images/blog1.jpg",
+          img: "/images/blog1.jpg",
         },
         {
           title: "What Children Really Learn from Us",
           subtitle: "More Than Just Academics",
           desc: "How kids absorb emotional intelligence...",
-          img: "../public/images/blog2.jpg",
+          img: "/images/blog2.jpg",
         },
         {
           title: "Small Moments, Big Lessons",
           subtitle: "Real Stories from Our Classrooms",
           desc: "Short, real-life moments from Susamskar sessions...",
-          img: "../public/images/blog3.jpg",
+          img: "/images/blog3.jpg",
         },
       ].map((blog, idx) => (
         <div key={idx} className="flex items-start mb-4 gap-4">
@@ -76,7 +76,7 @@ export default function Blog(){
     <div className="ml-auto">
       <h2 className="text-xl font-bold mb-4 text-center">GALLERY</h2>
       <div className="grid grid-cols-3 gap-2">
-        {["../public/images/galary1.jpg", "../public/images/galary2.jpg", "../public/images/galary3.jpg", "../public/images/galary4.jpg", "../public/images/galary5.jpg", "../public/images/galary6.jpg"].map((img, i) => (
+        {["/images/galary1.jpg", "/images/galary2.jpg", "/images/galary3.jpg", "/images/galary4.jpg", "/images/galary5.jpg", "/images/galary6.jpg"].map((img, i) => (
           <img key={i} src={img} alt={`Gallery ${i}`} className="w-full h-24 object-cover rounded" />
         ))}
       </div>
