@@ -20,8 +20,8 @@ export default function AboutUs(){
     </div>
 
     <div className="flex gap-4 mt-20">
-      <img src="../images/about1.jpg" className="rounded-xl w-28 h-28 object-cover" />
-      <img src="../images/about2.jpg" className="rounded-xl w-28 h-28 object-cover" />
+      <img src="../public/images/about1.jpg" className="rounded-xl w-28 h-28 object-cover" />
+      <img src="../public/images/about2.jpg" className="rounded-xl w-28 h-28 object-cover" />
       <button className="mt-6 text-sm font-semibold text-black flex items-center gap-1">
         Know Us Better <span className="text-xs">▶</span>
       </button>

@@ -7,7 +7,7 @@ const events = [
       date: "12",
       month: "JUNE",
       badgeColor: "bg-yellow-400",
-      image: "/images/event1.jpeg",
+      image: "../public/images/event1.jpeg",
     },
     {
       title: "Rekindling Hearts",
@@ -17,7 +17,7 @@ const events = [
       date: "20",
       month: "JUNE",
       badgeColor: "bg-cyan-400",
-      image: "/images/event2.jpeg",
+      image: "../public/images/event2.jpeg",
     },
     {
       title: "Inner Voice",
@@ -27,7 +27,7 @@ const events = [
       date: "06",
       month: "JULY",
       badgeColor: "bg-green-500",
-      image: "/images/event3.jpeg",
+      image: "../public/images/event3.jpeg",
     },
   ];
   

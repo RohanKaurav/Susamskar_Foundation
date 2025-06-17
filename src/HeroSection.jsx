@@ -1,5 +1,5 @@
 // HeroSection.jsx
-import Peeple_Boy from '../images/peeple_boy1.png';
+import Peeple_Boy from '../public/images/peeple_boy1.png';
 
 export default function HeroSection() {
   return (

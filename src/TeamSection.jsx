@@ -14,31 +14,31 @@ export default function TeamSection(){
         name: 'Dr. Nijwm Wari',
         title: 'Professor, IIT Bhubaneswar',
         subtitle: 'B.Tech, M.Tech, and Ph.D from IIT Kharagpur',
-        image: '../images/NitaiRam_pr.jpeg',
+        image: '../public/images/NitaiRam_pr.jpeg',
       },
       {
         name: 'Supriya Hazra',
         title: 'Ex-PR and Marketing Officer',
         subtitle: 'Warner Bros. Inc.',
-        image: '../images/supriya_mataji.jpeg',
+        image: '../public/images/supriya_mataji.jpeg',
       },
       {
         name: 'Niladri Hazra',
         title: 'Ex–Director',
         subtitle: 'Geological Survey of India',
-        image: '../images/nilanchal_pr.jpeg',
+        image: '../public/images/nilanchal_pr.jpeg',
       },
       {
         name: 'Pawan Thakur',
         title: 'Physics Lecturer',
         subtitle: 'SVN Public School, Nahan',
-        image: '../images/pawan_pr.jpeg',
+        image: '../public/images/pawan_pr.jpeg',
       },
       {
         name: 'Jayati Goswami',
         title: 'Head Mistress',
         subtitle: 'Lakshmipat Singhania Academy, Kolkata',
-        image: '../images/jayati_mataji.jpeg',
+        image: '../public/images/jayati_mataji.jpeg',
       },
     ].map((member, idx) => (
       <div
